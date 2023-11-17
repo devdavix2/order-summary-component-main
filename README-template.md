@@ -13,7 +13,7 @@ I'm thrilled to present my solution to the  Results Summary Component Challenge 
 
 
 
-![Screenshot](./solutions/mobile(5).png)
+![Screenshot](./solutions/deskstop.png)
 
 
 ### Live Demo
