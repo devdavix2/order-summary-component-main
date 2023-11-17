@@ -15,6 +15,8 @@ I'm thrilled to present my solution to the  Results Summary Component Challenge 
 
 ![Screenshot](./solutions/deskstop.png)
 
+![Mobile](solutions/mobile.png)
+
 
 ### Live Demo
 
