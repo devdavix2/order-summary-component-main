@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+
+
+    body{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100%;
+    background-size: 1100px;
+    background-color:   hsl(225, 100%, 94%);
+    background-repeat: repeat-x;
+    background-image: url("/images/pattern-background-desktop.svg");
+}
+
+.container{
+    display: block;
+    background: #fff;
+    height: 100%;
+    width: 400px;
+    padding:0px;
+    margin: 50px 450px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 25px 2px hsla(245, 75%, 52%, 0.4);
+
+    align-self: center;
+    justify-content: center;
+
+
+}
+
+.container img{
+    display: flex;
+    width: 400px;
+    border-radius: 20px;
+    margin:0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+
+.order-details h1{
+    text-align:center ;
+    font-weight: 900;
+    font-family:  "Red Hat Display";
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+.order-details p{
+    text-align:center ;
+    font-weight: 500;
+    font-family:  "Red Hat Display";
+    margin: 0px 20px;
+}
+
+
+.main-container{
+
+    display: flex;
+    background-color:  hsl(225, 100%, 98%);
+    width: 350px;
+    height: 80px;
+    
+    margin: 10px 30px;
+    border-radius: 10px;
+    
+
+}
+
+.main-container img{
+    width: 50px;
+    height: 50px;
+    margin: 15px 25px;
+}
+
+
+.item2 h1{
+   
+    font-size: medium;
+    font-family: "Red Hat Display";
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom:-15px;
+}
+
+.item2 h2{
+   margin-bottom: 30px;
+    font-size: medium;
+    font-family: "Red Hat Display";
+    font-weight: 500;
+}
+
+.link{
+    font-size: medium;
+    font-family: "Red Hat Display";
+    font-weight: 700;
+    margin-left:50px;
+    margin-top: 30px;
+}
+
+
+
+.btn{
+
+    width: 350px;
+    height: 50px;
+    margin:  10px 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border-style:none ;
+    font-weight: 900;
+    box-shadow: 0 4px 10px hsla(245, 75%, 52%, 0.5);
+
+    font-family:  "Red Hat Display";
+   
+    
+}
+
+
+.cancel{
+    text-align: center;
+    font-weight: 900;
+    font-family:  "Red Hat Display";
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 20px;
+    padding-bottom:40px ;
+    
+
+}
+
+.attribution{
+    text-align: center;
+    font-weight: 500;
+    font-family:  "Red Hat Display";
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    
+
+    body{
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: 100%;
+        background-size: 600px;
+        background-color:   hsl(225, 100%, 94%);
+        background-repeat: repeat-x;
+        background-image: url("/images/pattern-background-mobile.svg");
+    }
+
+    .container{
+        display: block;
+        background: #fff;
+        height: 100%;
+        width: 350px;
+        padding:0px;
+        margin: 50px 30px;
+        border-radius: 20px;
+        box-shadow: 5px 10px 25px 2px hsla(245, 75%, 52%, 0.4);
+    
+        align-self: center;
+        justify-content: center;
+    
+    
+    }
+    
+    
+    .main-container{
+
+        display: flex;
+        background-color:  hsl(225, 100%, 98%);
+        width: 320px;
+        height: 80px;
+        
+        margin: 10px 20px;
+        border-radius: 10px;
+        
+    
+    }
+
+    .container img{
+        display: flex;
+        width: 350px;
+        border-radius: 20px;
+        margin:0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    
+    }
+    
+.main-container img{
+    width: 50px;
+    height: 50px;
+    margin: 15px 25px;
+}
+
+    
+    .btn{
+
+        width: 300px;
+        height: 50px;
+        margin:  10px 30px;
+        border-radius: 10px;
+        color: white;
+        background-color: hsl(245, 75%, 52%);
+        border-style:none ;
+        font-weight: 900;
+        box-shadow: 0 4px 10px hsla(245, 75%, 52%, 0.5);
+    
+        font-family:  "Red Hat Display";
+       
+        
+    }
+    
+    
+
+    .attribution{
+        text-align: center;
+        font-weight: 500;
+        font-family:  "Red Hat Display";
+        margin: 10px;
+        width: 350px;
+    }
+    
+  
+}
