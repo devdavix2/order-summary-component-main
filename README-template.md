@@ -1,4 +1,4 @@
-# Oder summary component  - My Solution
+# Order summary component  - My Solution
 
 ![Design preview for the Product Preview Card component coding challenge](./design/desktop-preview.jpg)
 
@@ -8,9 +8,13 @@ I'm thrilled to present my solution to the  Results Summary Component Challenge 
 
 ## Overview
 
-### Screenshot
+### Screenshot of Solutions
 
-(./solutions/mobile (5).png)
+
+
+
+![Screenshot](./solutions/mobile%(5).png)
+
 
 ### Live Demo
 
